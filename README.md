@@ -358,7 +358,7 @@ git push origin feature/nueva-funcion
 
 <div align="center">
 
-## Hank Fanchiu
+## Isai Reyes
 
 Full Stack Developer apasionado por plataformas multimedia, streaming musical y aplicaciones web modernas.
 
