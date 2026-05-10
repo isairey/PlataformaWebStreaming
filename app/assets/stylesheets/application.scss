@@ -1,0 +1,266 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, span, a {
+  font-family: "Roboto", sans-serif;
+}
+
+div.app {
+  position: relative;
+  height: 100vh;
+}
+
+.navbar-default {
+  background-color: #222;
+  border: none;
+}
+
+.navbar-fixed-top {
+  min-width: 970px;
+}
+
+#navbar {
+  min-width: 970px;
+}
+
+.navbar .navbar-header span.navbar-brand {
+  cursor: pointer;
+  color: #ccc
+}
+
+.navbar .navbar-header span.navbar-brand:hover {
+  color: #eee
+}
+
+.navbar .nav > li > a {
+  color: #ccc
+}
+
+.navbar .nav > li > a:hover {
+  color: #eee
+}
+
+a.nav-logo {
+  background: asset-url("chime.png") no-repeat 0 0;
+  background-size: contain;
+  display: block;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding-bottom: 30px;
+  height: 30px;
+  width: 100px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  opacity: 0.85;
+}
+
+a.nav-logo:hover {
+  opacity: 1;
+}
+
+.container {
+  min-width: 970px;
+  max-width: none !important;
+}
+
+main {
+  padding-top: 100px;
+  padding-bottom: 400px;
+  min-height: 100%;
+  overflow: auto;
+}
+
+.page-header {
+  margin: 0 0 20px;
+
+  h1 {
+    margin-top: 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #0077A9;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #222;
+}
+
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+  color: #0077A9;
+}
+
+span.help-block {
+  font-size: 12px;
+}
+
+footer {
+  position: relative;
+  margin-top: -300px;
+  height: 300px;
+  clear: both;
+  background-color: #222;
+  padding: 40px 0 100px 0;
+
+  section.footer-wrapper {
+    width: 100%;
+    min-width: 970px;
+    display: table;
+    table-layout: fixed;
+  }
+
+  a.logo {
+    background: asset-url("logo.png") no-repeat 0 0;
+    background-size: contain;
+    display: block;
+    padding-bottom: 80px;
+    height: 0;
+    width: 80px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    opacity: 0.5;
+  }
+
+  a.logo:hover {
+    opacity: 1;
+  }
+
+  ul.footer-nav {
+    display: table-cell;
+    padding: 0;
+    list-style: none;
+    color: #ccc;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  h5 {
+    margin-bottom: 15px;
+  }
+
+  a {
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  a:hover {
+    color: white;
+  }
+}
+
+span.spacer {
+  padding: 0 10px 0 10px;
+}
+
+span.spacer-small {
+  padding: 0 5px 0 5px;
+}
+
+span.spacer-large {
+  padding: 0 20px 0 20px;
+}
+
+span.username,
+span.grey-helper-text {
+  font-size: 11px;
+  font-weight: normal;
+  color: #aaa
+}
+
+span.username-large {
+  font-size: 16px;
+  font-weight: normal;
+  color: #aaa
+}
+
+h5.username {
+  margin: 5px 0;
+  font-weight: 400;;
+  color: #aaa
+}
+
+span.title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #555;
+}
+
+span.title-large {
+  font-size: 20px;
+  color: #555;
+}
+
+h4.title {
+  margin-top: 5px;
+  color: #555;
+}
+
+header.title-thin,
+span.title-thin {
+  font-weight: 400;
+}
+
+p.time {
+  font-size: 10px;
+  color: #333;
+}
+
+a.username,
+a.title {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a.username:hover,
+a.title:hover {
+  color: #222;
+}
+
+a.username:active,
+a.title:active {
+  color: #0077A9;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.required-label:after {
+  content: '*';
+  color: red;
+  display: inline-block;
+  margin-left: 2px;
+}

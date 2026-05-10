@@ -1,0 +1,78 @@
+textarea#user-profile-description {
+  resize: none;
+}
+
+h4.user-page-nav {
+  padding: 0 15px;
+  margin: 5px 0;
+}
+
+div.user-sidebar {
+  section.user-username {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  section.user-username h2 {
+    margin-top: 0;
+  }
+
+  section.user-asset-count {
+    width: 100%;
+  }
+
+  div.user-asset {
+    width: 50%;
+    display: inline-block;
+  }
+
+  h4.grey-heading {
+    color: #aaa;
+    font-weight: 300;
+  }
+
+  section.user-profile {
+    margin-top: 15px;
+    color: #555;
+    line-height: 2em;
+  }
+}
+
+div.avatar {
+  position: relative;
+
+  input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: center;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+  }
+
+  span.btn-file {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+  }
+}
+
+div.avatar:hover {
+  span.btn-file {
+    display: inline;
+  }
+}

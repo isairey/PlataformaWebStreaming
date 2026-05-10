@@ -1,0 +1,95 @@
+div.playlists-index {
+
+  span.playlist-index-item {
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+
+  div.playlist-image {
+    position: relative;
+  }
+
+  span.play-button {
+    position: absolute;
+    display: table;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    padding: 0 0 2px 3px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+
+  .glyphicon.play-icon {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    color: #bbb;
+  }
+
+  span.play-button:hover {
+    background: #111;
+
+    .glyphicon.play-icon {
+      color: #ddd;
+    }
+  }
+
+  span.play-button:active {
+    background: #000;
+
+    .glyphicon.play-icon {
+      color: #bbb;
+    }
+  }
+
+  div.playlist-image:hover {
+    span.btn {
+      cursor: pointer;
+      opacity: 1;
+    }
+  }
+
+  section.time {
+    float: right;
+    margin-top: 5px;
+  }
+
+  section.playlist-info {
+    margin-bottom: 1em;
+  }
+
+  button.track-list-item {
+    padding: 8px;
+  }
+
+  figure.track-image {
+    display: inline-block;
+  }
+
+  section.track-index {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  section.track-info {
+    display: inline-block;
+  }
+
+  section.buttons span {
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  section.buttons span:last-child {
+    margin-right: 0px;
+  }
+}

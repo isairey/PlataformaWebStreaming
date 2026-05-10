@@ -1,0 +1,70 @@
+textarea#track-description {
+  resize: none;
+}
+
+div.upload-modal {
+  min-width: 720px;
+}
+
+// Upload audio button
+
+div.upload-audio {
+  position: relative;
+  width: 350px;
+  height: 50px;
+  overflow: hidden;
+
+  input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+  }
+
+  span.btn-file {
+    position: absolute;
+    bottom: 10px;
+  }
+}
+
+// Upload image
+
+div.upload-img {
+  position: relative;
+
+  input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: center;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+  }
+
+  span.btn-file {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+  }
+}
