@@ -2,7 +2,7 @@
 
 <img width="220" src="./docs/images/home_page.png" />
 
-# 🎵 Chime
+# 🎵 PlataformaWebStreaming Chime
 
 ### Plataforma web de streaming y compartición musical inspirada en SoundCloud 🚀
 
@@ -206,7 +206,7 @@ chime/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isairey/Chime
+git clone https://github.com/isairey/PlataformaWebStreaming
 ```
 
 ---
@@ -214,7 +214,7 @@ git clone https://github.com/isairey/Chime
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd Chime
+cd PlataformaWebStreaming
 ```
 
 ---
@@ -384,6 +384,6 @@ Proyecto Open Source utilizado con fines educativos y de aprendizaje.
 
 <div align="center">
 
-### 🎵 Chime — Streaming musical moderno inspirado en SoundCloud.
+### 🎵 PlataformaWebStreaming Chime — Streaming musical moderno inspirado en SoundCloud.
 
 </div>
